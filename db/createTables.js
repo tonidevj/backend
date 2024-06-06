@@ -1,4 +1,4 @@
-const db = require('.');
+const db = require(".");
 
 // Función para crear la tabla usuarios
 const createUsersTable = async () => {
@@ -9,7 +9,7 @@ const createUsersTable = async () => {
   )
   `);
   statement.run();
-  console.log('Tabla de usuarios creada');
+  console.log("Tabla de usuarios creada");
 };
 
 // Función para crear la tabla de contactos
@@ -26,7 +26,7 @@ const createContactsTable = async () => {
   )
   `);
   statement.run();
-  console.log('Tabla de contactos creada');
+  console.log("Tabla de contactos creada");
 };
 
 // asegura que las tablas sean creadas una despues de otra 

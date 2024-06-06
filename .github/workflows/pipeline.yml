@@ -8,7 +8,7 @@ on:
 jobs: 
     simple_Deployment_pipeline:
       if: ${{github.event_name == 'push'}}
-      run-on: ubuntu-20.04
+      runs-on: ubuntu-20.04
       steps: 
         - uses: actions/checkout@v4
         - uses: actions/setup-node@4
